@@ -63,7 +63,7 @@ Quickly test Source Code Pro on your site by using the CDN hosted by [RawGit].
 Feel free to use it in production as well:
 
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/source-code-pro/1.016/source-code-pro.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/source-code-pro/1.017/source-code-pro.css">
 ```
 
 ## Getting Involved
