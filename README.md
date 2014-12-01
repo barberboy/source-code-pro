@@ -7,9 +7,64 @@ by using the AFDKO makeotf tool.
 
 ## Font installation instructions
 
-* [Mac OS X](http://support.apple.com/kb/HT2509)
-* [Windows](http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts)
-* [Linux/Unix-based systems](https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116)
+### Clone with git
+
+```sh
+cd styles/fonts
+git clone https://github.com/barberboy/source-code-pro
+```
+
+```html
+<link rel="stylesheet" href="/styles/fonts/source-code-pro/source-code-pro.css">
+```
+
+
+### Download
+
+Download and unpack the [.zip archive](https://github.com/barberboy/source-code-pro/archive/master.zip):
+
+```sh
+cd styles/fonts
+wget https://github.com/barberboy/source-code-pro/archive/master.zip
+unzip master.zip
+mv source-code-pro-master source-code-pro
+rm master.zip
+```
+
+```html
+<link rel="stylesheet" href="/styles/fonts/source-code-pro/source-code-pro.css">
+```
+
+
+### Bower
+
+```sh
+bower install barberboy/source-code-pro
+```
+
+```html
+<link rel="stylesheet" href="/bower_components/source-code-pro/source-code-pro.css">
+```
+
+If you’d like bower to put it in a different directory, just create a
+[`.bowerrc`](http://bower.io/docs/config/) file and specify the
+[`directory`](http://bower.io/docs/config/#directory) location:
+
+```json
+{
+  "directory": "app/public",
+  "analytics": false
+}
+```
+
+### CDN
+
+Quickly test Source Code Pro on your site by using the CDN hosted by [RawGit].
+Feel free to use it in production as well:
+
+```html
+<link rel="stylesheet" href="https://cdn.rawgit.com/barberboy/source-code-pro/1.016/source-code-pro.css">
+```
 
 ## Getting Involved
 
